@@ -1,11 +1,11 @@
 Compile your program with GMP and nlohmann JSON:
 
 bash
-g++ -std=c++17 -O2 your_program.cpp -lgmp -lgmpxx -o shamir_secret
+g++ secret_recovery.cpp -lgmp -lgmpxx -o output
 Run your program:
 
 bash
-./shamir_secret
+./output
 
 Output:
 3
