@@ -1,9 +1,8 @@
-Compile your program with GMP and nlohmann JSON:
-
+Compilation:
 bash
 g++ secret_recovery.cpp -lgmp -lgmpxx -o output
-Run your program:
 
+Run your program:
 bash
 ./output
 
